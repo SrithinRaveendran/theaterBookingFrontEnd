@@ -1,0 +1,36 @@
+.seat {
+    width: 7.1%;
+    aspect-ratio: 1 / 1;
+    background-color: rgb(148, 191, 144);
+    border: solid 2px;
+    border-radius: 4px;
+    margin:.25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seat2 {
+    width: 7.1%;
+    aspect-ratio: 1 / 1;
+    background-color: rgb(157, 99, 74);
+    border: solid 2px;
+    border-radius: 4px;
+    margin:.25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seatbooked {
+    width: 7.1%;
+    aspect-ratio: 1 / 1;
+    background-color: rgb(236, 102, 102);
+    border: solid 2px;
+    border-radius: 4px;
+    margin:.25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

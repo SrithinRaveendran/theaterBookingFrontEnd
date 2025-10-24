@@ -1,0 +1,226 @@
+* {
+    box-sizing: border-box;
+}
+
+.bookingBackGround {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(68, 60, 205);
+    overflow-x: auto;
+}
+
+.selectedseatAndButton{
+    width: 100%;
+    height: 30px;
+    border: solid 2px;
+    display: flex;
+    padding: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.selectedSeatNumber{
+    display: flex;
+    align-items: center;
+}
+
+.selectedSeatpara{
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+}
+
+.seatnumber{
+    border: solid 2px greenyellow;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15px;
+    width: auto;
+    margin-left: 2px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.booknowbutton{
+    height: 20px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: solid 2px black;
+    border-radius: 4px;
+    font-size: 13px;
+    color: rgb(21, 20, 20);
+}
+
+.bookingMainConatiner {
+    height: auto;
+    width: 100vw;
+    /* border: solid 2px; */
+    padding: 5px;
+
+}
+
+.selectseatHeading {
+    font-size: 16px;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+.seatContainer {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-content: flex-start;
+    justify-self: flex-start;
+    /* border: solid 2px; */
+    
+    flex-wrap: wrap;
+}
+
+.screenAndstatusConatiner{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border: solid 2px; */
+}
+.statusContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   p{
+    font-size: 13px;
+    color: white;
+    
+   }
+
+}
+.statusboxgreen{
+    height: 12px; 
+    width : 12px;
+    border: solid 2px;
+    background-color: rgb(148, 191, 144);
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    /* display: flex; */
+    flex-wrap: wrap;
+    padding: 0px;
+}
+
+.statusboxorange{
+    height: 12px; 
+    width : 12px;
+    border: solid 2px;
+    background-color:  rgb(157, 99, 74);
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    /* display: flex; */
+    flex-wrap: wrap;
+    padding: 0px;
+}
+
+.statusboxred{
+    height: 12px; 
+    width : 12px;
+    border: solid 2px;
+    background-color:  rgb(236, 102, 102);
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    /* display: flex; */
+    flex-wrap: wrap;
+    padding: 0px;
+}
+
+.screen{
+    height: 8px;
+    width: 65%;
+    /* border: solid 2px; */
+    background-color: aliceblue;
+    border-radius: 3px;
+
+}
+
+.screenpara{
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(44, 42, 42);
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+ @media (min-width: 1024px) and (max-width: 1600px) {
+    .selectseatHeading {
+    font-size: 20px;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+.selectedSeatpara{
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+}
+
+.selectedseatAndButton{
+    width: 100%;
+    height: 32px;
+    border: solid 2px;
+    display: flex;
+    padding: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.booknowbutton{
+    height: 25px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: solid 2px black;
+    border-radius: 4px;
+    font-size: 13px;
+    color: rgb(21, 20, 20);
+}
+
+.seatnumber{
+    border: solid 2px greenyellow;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 18px;
+    width: auto;
+    margin-left: 2px;
+    font-size: 16px;
+    font-weight: bold;
+}
+    
+} 
