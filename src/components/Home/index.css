@@ -112,19 +112,23 @@
 
 .endTitle {
     font-size: 24px;
-    color: rgb(28, 27, 27)
+    color: rgb(235, 224, 224)
 }
 
 .endspanTitle {
     font-size: 24px;
-    color: rgb(26, 24, 24)
+    color: rgb(235, 224, 224)
 }
 
-.mustAttendEvent:hover {
+.mustAttendImage:hover {
     background-color: #f0f0f0; /* Subtle background change */
     transform: scale(1.05);    /* Slightly enlarge the element */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
     cursor: pointer;           /* Indicate it's interactive */
+}
+
+a{
+    text-decoration: none;
 }
 
 @media (min-width: 1024px) and (max-width: 1600px) {

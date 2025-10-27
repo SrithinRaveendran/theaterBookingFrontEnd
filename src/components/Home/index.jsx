@@ -100,68 +100,86 @@ const Home = () => {
                     >
                         <SwiperSlide>
                             <div className='mustAttendEvent'>
-                                <img className='mustAttendImage' src="/gang_of_mangalassery.jpeg" alt="gang_of_mangalassery" />
-                                <p className='mustAttendPara'>Watch Neelakandan's Act in Public</p>
+                                <a  href='https://www.youtube.com/watch?v=3URtTIdnXIk'>
+                                <img className='mustAttendImage' src="/cat.jpeg" alt="cat" />
+                                <p className='mustAttendPara'>Watch Funny cat video</p>
+                                </a>
                             </div>
                         </SwiperSlide>
 
                         <SwiperSlide>
                             <div className='mustAttendEvent'>
+                                <a href='https://www.youtube.com/watch?v=iu0mlEYf8cc'>
                                 <img className='mustAttendImage' src="/Sharukh_Khan.jpeg" alt="90s_sarukh_khan" />
                                 <p className='mustAttendPara'>Watch Sharukh's Birthday </p>
+                                </a>
 
                             </div>
                         </SwiperSlide>
 
                         <SwiperSlide>
                             <div className='mustAttendEvent'>
+                                <a href='https://www.youtube.com/watch?v=Hvx0QwqbyeM'>
                                 <img className='mustAttendImage' src="/PUSHPA_ALLU_ARJUN.jpeg" alt="90s_sarukh_khan" />
                                 <p className='mustAttendPara'>Watch Allu Arjun's Dance </p>
+                                </a>
                             </div>
                         </SwiperSlide>
 
 
                         <SwiperSlide>
                             <div className='mustAttendEvent'>
-                                <img className='mustAttendImage' src="/gang_of_mangalassery.jpeg" alt="gang_of_mangalassery" />
-                                <p className='mustAttendPara'>Watch Neelakandan's Act in Public</p>
+                                <a href='https://www.youtube.com/watch?v=Z_LmiQlT9oE'>
+                                <img className='mustAttendImage' src="/Lewis Hamilton.jpeg" alt="Lewis Hamilton" />
+                                <p className='mustAttendPara'>Watch Lewis Hamilton Race</p>
+                                </a>
                             </div>
                         </SwiperSlide>
 
                         <SwiperSlide>
                             <div className='mustAttendEvent'>
-                                <img className='mustAttendImage' src="/Sharukh_Khan.jpeg" alt="90s_sarukh_khan" />
-                                <p className='mustAttendPara'>Watch Sharukh's Birthday </p>
-
-                            </div>
-                        </SwiperSlide>
-
-                        <SwiperSlide>
-                            <div className='mustAttendEvent'>
-                                <img className='mustAttendImage' src="/PUSHPA_ALLU_ARJUN.jpeg" alt="90s_sarukh_khan" />
-                                <p className='mustAttendPara'>Watch Allu Arjun's Dance </p>
-                            </div>
-                        </SwiperSlide>
-
-                        <SwiperSlide>
-                            <div className='mustAttendEvent'>
-                                <img className='mustAttendImage' src="/gang_of_mangalassery.jpeg" alt="gang_of_mangalassery" />
-                                <p className='mustAttendPara'>Watch Neelakandan's Act in Public</p>
-                            </div>
-                        </SwiperSlide>
-
-                        <SwiperSlide>
-                            <div className='mustAttendEvent'>
-                                <img className='mustAttendImage' src="/Sharukh_Khan.jpeg" alt="90s_sarukh_khan" />
-                                <p className='mustAttendPara'>Watch Sharukh's Birthday </p>
+                                  <a href='https://www.youtube.com/watch?v=-AdteE-KuIg'>
+                                <img className='mustAttendImage' src="/dog.jpeg" alt="dog" />
+                                <p className='mustAttendPara'>Watch Funny Dog</p>
+                                </a>
 
                             </div>
                         </SwiperSlide>
 
                         <SwiperSlide>
                             <div className='mustAttendEvent'>
-                                <img className='mustAttendImage' src="/PUSHPA_ALLU_ARJUN.jpeg" alt="90s_sarukh_khan" />
-                                <p className='mustAttendPara'>Watch Allu Arjun's Dance </p>
+                                <a href='https://www.youtube.com/watch?v=YtvqnvHjD-c'>
+                                <img className='mustAttendImage' src="/350classic.jpeg" alt="350 classic" />
+                                <p className='mustAttendPara'>Watch New Bullet 350 classic </p>
+                                </a>
+                            </div>
+                        </SwiperSlide>
+
+                        <SwiperSlide>
+                            <div className='mustAttendEvent'>
+                                <a href='https://www.youtube.com/watch?v=lrl1t-vLxU4'>
+                                <img className='mustAttendImage' src="/kerala.jpeg" alt="kerala" />
+                                <p className='mustAttendPara'>Watch Kerala Tourism Video</p>
+                                </a>
+                            </div>
+                        </SwiperSlide>
+
+                        <SwiperSlide>
+                            <div className='mustAttendEvent'>
+                                <a href='https://www.youtube.com/watch?v=ScDkllIrb6k'>
+                                <img className='mustAttendImage' src="/mammootty.jpeg" alt="mammooty" />
+                                <p className='mustAttendPara'>Watch Mammooty in 90"s</p>
+                                </a>
+
+                            </div>
+                        </SwiperSlide>
+
+                        <SwiperSlide>
+                            <div className='mustAttendEvent'>
+                                <a href='https://www.youtube.com/watch?v=86gzL8Dd9Gg'>
+                                <img className='mustAttendImage' src="/tomandjerry.jpeg" alt="tomandjerry" />
+                                <p className='mustAttendPara'>Watch Tom and Jerry </p>
+                                </a>
                             </div>
                         </SwiperSlide>
                     </Swiper>
