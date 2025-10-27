@@ -9,11 +9,11 @@
     overflow-x: auto;
 }
 
-.contentpart{
+.contentpartt{
     height: 100%;
     height: 100%;
     box-sizing: border-box;
-    border: solid 2px;
+    /* border: solid 2px; */
     padding: 5px;
 }
 

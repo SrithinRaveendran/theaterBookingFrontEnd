@@ -23,7 +23,7 @@ const Theater = () => {
 
 
             try {
-                const data = await fetch("https://theaterbookingserver-3.onrender.com/theater", {
+                const data = await fetch("https://theaterbookingserver-3.onrender.com/theater/", {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify(body)
@@ -34,7 +34,7 @@ const Theater = () => {
 
                 setdetails(result)
             } catch (e) {
-                console.log(e.message, 'error vannu')
+                console.log(e.message, 'error vannuu')
             }
 
         }
@@ -64,7 +64,7 @@ const Theater = () => {
 
     return (
         <div className='theaterBackGround'>
-            <div className='contentpart'>
+            <div className='contentpartt'>
                 {details.map(each =>
                     <div className='theaterDetailsContainer'>
                         <img className='apimovieimg' src={each.movie_img} alt={each.movie_name} />
