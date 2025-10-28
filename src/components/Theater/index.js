@@ -76,17 +76,10 @@ const Theater = () => {
                                 {JSON.parse(each.time).map(time =>
 
                                     <button className='timebutton' onClick={()=>timetocontext(time,each.theater_name)}   >{time}</button>)}
-                                {/* {each.time } */}
                             </div>
                         </div>
                     </div>
                 )}
-                {/* <div className='theaterDetailsContainer'>
-                    <img src={details[0].movie_img} alt={details[0].movie_name
-                        } />
-                </div> */}
-
-
             </div>
 
         </div>

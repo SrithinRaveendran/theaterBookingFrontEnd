@@ -22,7 +22,7 @@
     color: rgb(68, 60, 205)
 }
 
-@media (min-width: 1024px) and (max-width: 1600px) {
+/* @media (min-width: 1024px) and (max-width: 1600px) {
    .navbar{
     box-sizing: border-box;
     max-height: 12vh;
@@ -31,9 +31,9 @@
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     display: flex;
     padding: 5px;
-    /* border: solid 2px; */
+    
     margin: 0px;
 }
 
 
-}
+} */

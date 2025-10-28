@@ -82,3 +82,10 @@
     color: rgb(69, 81, 51);
     font-weight: bold;
 }
+
+@media (min-width: 1024px) and (max-width: 1600px) {
+    .apimovieimg{
+        display: none;
+    }
+    
+}

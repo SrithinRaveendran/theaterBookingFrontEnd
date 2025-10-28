@@ -87,7 +87,7 @@ const Home = () => {
 
                     <Swiper
                         spaceBetween={0}
-                        slidesPerView={6}
+                        slidesPerView={5}
                         onSlideChange={() => console.log('slide change')}
                         onSwiper={(swiper) => console.log(swiper)}
                         autoplay={{
@@ -158,7 +158,7 @@ const Home = () => {
                         <SwiperSlide>
                             <div className='mustAttendEvent'>
                                 <a href='https://www.youtube.com/watch?v=lrl1t-vLxU4'>
-                                <img className='mustAttendImage' src="/kerala.jpeg" alt="kerala" />
+                                <img className='mustAttendImage' src="/Munnar.jpeg" alt="kerala" />
                                 <p className='mustAttendPara'>Watch Kerala Tourism Video</p>
                                 </a>
                             </div>
