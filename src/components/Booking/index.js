@@ -4,11 +4,14 @@ import Seat from '../Seat'
 
 import { useContext, useEffect, useState } from 'react'
 
+import { useNavigate } from 'react-router-dom'
+
 import { BookingNeeds } from '../context/bookingNeeds'
 
 import { v4 as uuidv4 } from 'uuid';
 
 const Booking = () => {
+    const Navigate = useNavigate()
     // const[movieName ,setMovieName] = useState("")
     const { seat_number, setSeatNumber, location, theatername, time, movieName } = useContext(BookingNeeds)
 
@@ -18,10 +21,14 @@ const Booking = () => {
 
     const onSeatClick = (seatnumer) => {
         // setSeatNumber(prev => [...prev, seatnumer])
-        if (bookedseat.includes(seatnumer) || (seatState.includes(seatnumer))) {
+        if (bookedseat.includes(seatnumer)) {
             alert("This seat is already Selected")
         } else {
             setSeatState(prev => [...prev, seatnumer])
+        }
+
+        if(seatState.includes(seatnumer)){
+            setSeatState(prev => prev.filter(num=> num!==seatnumer))
         }
 
 
@@ -70,9 +77,13 @@ const Booking = () => {
 
     console.log(bookedseat, "booked seat from api")
 
+   
 
 
     const booknowClick = () => {
+            
+            Navigate('/billing')
+
         setSeatNumber(prev => [...prev, ...seatState])
         console.log([...seatState], "hello")
 
@@ -104,10 +115,11 @@ const Booking = () => {
             }
         }
         apiCAll()
-
+      
         setSeatState([])
-
     }
+
+
 
 
 
@@ -131,11 +143,11 @@ const Booking = () => {
                 <div className='screenAndstatusConatiner'>
                     <div className='statusContainer'>
                         <div className='statusboxgreen'></div>
-                        <p>BOOKED</p>
+                        <p>AVAILABLE</p>
                         <div className='statusboxorange'></div>
                         <p>SELECTED</p>
                         <div className='statusboxred'></div>
-                        <p>AVALAIBLE</p>
+                        <p>BOOKED</p>
                     </div>
                     <p className='screenpara'>Screen view Here</p>
                     <div className='screen'></div>

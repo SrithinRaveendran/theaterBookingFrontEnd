@@ -13,6 +13,7 @@ const Theater = () => {
     const Navigate = useNavigate()
 
     const { location, movieName,time,settime,settheatername} = useContext(BookingNeeds) // this code be moved to local storage
+    
     useEffect(() => {
         
         const locallocation = localStorage.getItem("location")

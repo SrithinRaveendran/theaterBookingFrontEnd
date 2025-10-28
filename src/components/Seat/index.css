@@ -8,6 +8,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all 0.3s ease;
 }
 
 .seat2 {
@@ -32,5 +33,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.seat:hover{
+    background-color: aliceblue;
+    transform: scale(1.05);    
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    cursor: pointer; 
 }
 
