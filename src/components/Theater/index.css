@@ -83,6 +83,14 @@
     font-weight: bold;
 }
 
+.spinner{
+    height: 100%;
+    width : 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media (min-width: 1024px) and (max-width: 1600px) {
     .apimovieimg{
         display: none;

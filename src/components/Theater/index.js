@@ -5,7 +5,7 @@ import { BookingNeeds } from '../context/bookingNeeds'
 import { useContext, useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 
-
+import { ThreeDots } from "react-loader-spinner";
 
 const Theater = () => {
     const [details, setdetails] = useState([])
@@ -66,7 +66,8 @@ const Theater = () => {
     return (
         <div className='theaterBackGround'>
             <div className='contentpartt'>
-                {details.map(each =>
+                {details.length>0 ? 
+                details.map(each =>
                     <div className='theaterDetailsContainer'>
                         <img className='apimovieimg' src={each.movie_img} alt={each.movie_name} />
                         <div className='theaterNamecontainer'>
@@ -80,7 +81,8 @@ const Theater = () => {
                             </div>
                         </div>
                     </div>
-                )}
+
+                ) : <div className="spinner"> <ThreeDots  color="#007bff" height={80} width={80} /> </div> }
             </div>
 
         </div>
