@@ -55,14 +55,7 @@ const Theater = () => {
         localStorage.setItem("theatername",theatername )
     }
 
-    // useEffect(()=>{
-    //     localStorage.setItem("time",time.toString())
-    //     localStorage.setItem("theatername",theatername )
-    // })
-
-     console.log(time)
-    // console.log(details[0].length>0 ? details[0].movie_name : "not yet", "from thaeter page")
-
+    //  console.log(time)
     return (
         <div className='theaterBackGround'>
             <div className='contentpartt'>
