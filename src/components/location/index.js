@@ -14,7 +14,7 @@ const locationDetails = [
         img_url: "https://assets-in.bmscdn.com/m6/images/common-modules/regions/hyd.png"
     },
     {
-        location: "Ahmedabhad",
+        location: "Ahmedabad",
         img_url: "https://assets-in.bmscdn.com/m6/images/common-modules/regions/ahd.png"
     },
     {
