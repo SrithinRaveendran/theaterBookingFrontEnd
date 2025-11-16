@@ -49,7 +49,7 @@ const Home = () => {
 
                 <div className='swiperContainer'>
                     <Swiper
-                        spaceBetween={35}
+                        spaceBetween={32}
                         slidesPerView={3}
                         onSlideChange={() => console.log('slide change')}
                         onSwiper={(swiper) => console.log(swiper)}

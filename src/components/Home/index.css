@@ -1,13 +1,14 @@
 * {
     box-sizing: border-box;
     border: 0px;
+    
 }
 
 .homebg {
-    height: 100vh;
+    max-height: 100vh;
     max-width: 100vw;
     background-color: rgb(68, 60, 205);
-    /* overflow-y: scroll;  */
+    overflow-y: auto; 
     overflow-x: hidden;
     border: none;
 }
@@ -74,7 +75,7 @@
 }
 
 .mustAttendEvent {
-    width: 95%;
+    width: 94%;
     height: 160px;
     /* border: solid 2px; */
     
