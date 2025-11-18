@@ -14,7 +14,7 @@ import { useNavigate } from "react-router-dom";
 import { BookingNeeds } from '../context/bookingNeeds'
 //
 
-// import NavBar from '../NavBar';
+
 import Location from '../location';
 
 
@@ -34,10 +34,8 @@ const Home = () => {
     }, [location])
 
     return (
-      
-       
-        <div className="homebg remove" >
-            <p className='paragorheight'>This website is not fit for your device decrease the screen width</p>
+        <div className="homebg">
+
             <div className='contentpart'>
                 <h2 className='locationHeading'>Location</h2>
                 <div className='locationcontainer'>
@@ -84,6 +82,9 @@ const Home = () => {
                     <h2 className='locationHeading'>Must Attend Events</h2>
                 </div>
                 <div className='mustAttendContainer'>
+
+
+
                     <Swiper
                         spaceBetween={0}
                         slidesPerView={5}
@@ -189,7 +190,6 @@ const Home = () => {
                 </div>
             </div>
         </div>
-      
     )
 }
 
