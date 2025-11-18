@@ -21,7 +21,7 @@ function App() {
           <Route path='/movie' element={<Movie />} />
           <Route path="/theater" element={<Theater />} />
           <Route path='/booking' element={<Booking />} />
-          <Route path='/billing' element={<Bill/>}/>
+          <Route path='/billing' element={<Bill />} /> 
         </Routes>
       </BookingNeedProvider>
     </BrowserRouter>
