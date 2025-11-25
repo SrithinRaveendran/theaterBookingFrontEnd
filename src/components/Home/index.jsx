@@ -4,9 +4,12 @@ import './index.css'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
+import "swiper/css/autoplay";
 
-//
-
+//slick
+// import Slider from "react-slick";
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
 
 //
 import { useContext, useEffect } from 'react';
@@ -19,8 +22,10 @@ import Location from '../location';
 
 
 
+
 const Home = () => {
     const Navigate = useNavigate()
+   
 
     const { setlocation, location } = useContext(BookingNeeds)
 
@@ -48,6 +53,7 @@ const Home = () => {
                 </div>
 
                 <div className='swiperContainer'>
+
                     <Swiper
                         spaceBetween={32}
                         slidesPerView={3}
@@ -59,7 +65,7 @@ const Home = () => {
                         }}
                         speed={1000}
                         loop={true}
-                        modules={[Autoplay]}
+                        // modules={[Autoplay]}
                     >
                         <SwiperSlide>
                             <img className='swiperimage' src="/PeakyBlinders.jpeg"
@@ -83,7 +89,7 @@ const Home = () => {
                 </div>
                 <div className='mustAttendContainer'>
 
-
+                    
 
                     <Swiper
                         spaceBetween={0}
@@ -96,13 +102,13 @@ const Home = () => {
                         }}
                         speed={1000}
                         loop={true}
-                        modules={[Autoplay]}
+                        // modules={[Autoplay]}
                     >
                         <SwiperSlide>
                             <div className='mustAttendEvent'>
-                                <a  href='https://www.youtube.com/watch?v=3URtTIdnXIk'>
-                                <img className='mustAttendImage' src="/cat.jpeg" alt="cat" />
-                                <p className='mustAttendPara'>Watch Funny cat video</p>
+                                <a href='https://www.youtube.com/watch?v=3URtTIdnXIk'>
+                                    <img className='mustAttendImage' src="/cat.jpeg" alt="cat" />
+                                    <p className='mustAttendPara'>Watch Funny cat video</p>
                                 </a>
                             </div>
                         </SwiperSlide>
@@ -110,8 +116,8 @@ const Home = () => {
                         <SwiperSlide>
                             <div className='mustAttendEvent'>
                                 <a href='https://www.youtube.com/watch?v=iu0mlEYf8cc'>
-                                <img className='mustAttendImage' src="/Sharukh_Khan.jpeg" alt="90s_sarukh_khan" />
-                                <p className='mustAttendPara'>Watch Sharukh's Birthday </p>
+                                    <img className='mustAttendImage' src="/Sharukh_Khan.jpeg" alt="90s_sarukh_khan" />
+                                    <p className='mustAttendPara'>Watch Sharukh's Birthday </p>
                                 </a>
 
                             </div>
@@ -120,8 +126,8 @@ const Home = () => {
                         <SwiperSlide>
                             <div className='mustAttendEvent'>
                                 <a href='https://www.youtube.com/watch?v=Hvx0QwqbyeM'>
-                                <img className='mustAttendImage' src="/PUSHPA_ALLU_ARJUN.jpeg" alt="90s_sarukh_khan" />
-                                <p className='mustAttendPara'>Watch Allu Arjun's Dance </p>
+                                    <img className='mustAttendImage' src="/PUSHPA_ALLU_ARJUN.jpeg" alt="90s_sarukh_khan" />
+                                    <p className='mustAttendPara'>Watch Allu Arjun's Dance </p>
                                 </a>
                             </div>
                         </SwiperSlide>
@@ -130,17 +136,17 @@ const Home = () => {
                         <SwiperSlide>
                             <div className='mustAttendEvent'>
                                 <a href='https://www.youtube.com/watch?v=Z_LmiQlT9oE'>
-                                <img className='mustAttendImage' src="/Lewis Hamilton.jpeg" alt="Lewis Hamilton" />
-                                <p className='mustAttendPara'>Watch Lewis Hamilton Race</p>
+                                    <img className='mustAttendImage' src="/Lewis Hamilton.jpeg" alt="Lewis Hamilton" />
+                                    <p className='mustAttendPara'>Watch Lewis Hamilton Race</p>
                                 </a>
                             </div>
                         </SwiperSlide>
 
                         <SwiperSlide>
                             <div className='mustAttendEvent'>
-                                  <a href='https://www.youtube.com/watch?v=-AdteE-KuIg'>
-                                <img className='mustAttendImage' src="/dog.jpeg" alt="dog" />
-                                <p className='mustAttendPara'>Watch Funny Dog</p>
+                                <a href='https://www.youtube.com/watch?v=-AdteE-KuIg'>
+                                    <img className='mustAttendImage' src="/dog.jpeg" alt="dog" />
+                                    <p className='mustAttendPara'>Watch Funny Dog</p>
                                 </a>
 
                             </div>
@@ -149,8 +155,8 @@ const Home = () => {
                         <SwiperSlide>
                             <div className='mustAttendEvent'>
                                 <a href='https://www.youtube.com/watch?v=YtvqnvHjD-c'>
-                                <img className='mustAttendImage' src="/350classic.jpeg" alt="350 classic" />
-                                <p className='mustAttendPara'>Watch New Bullet 350 classic </p>
+                                    <img className='mustAttendImage' src="/350classic.jpeg" alt="350 classic" />
+                                    <p className='mustAttendPara'>Watch New Bullet 350 classic </p>
                                 </a>
                             </div>
                         </SwiperSlide>
@@ -158,8 +164,8 @@ const Home = () => {
                         <SwiperSlide>
                             <div className='mustAttendEvent'>
                                 <a href='https://www.youtube.com/watch?v=lrl1t-vLxU4'>
-                                <img className='mustAttendImage' src="/Munnar.jpeg" alt="kerala" />
-                                <p className='mustAttendPara'>Watch Kerala Tourism Video</p>
+                                    <img className='mustAttendImage' src="/Munnar.jpeg" alt="kerala" />
+                                    <p className='mustAttendPara'>Watch Kerala Tourism Video</p>
                                 </a>
                             </div>
                         </SwiperSlide>
@@ -167,8 +173,8 @@ const Home = () => {
                         <SwiperSlide>
                             <div className='mustAttendEvent'>
                                 <a href='https://www.youtube.com/watch?v=ScDkllIrb6k'>
-                                <img className='mustAttendImage' src="/mammootty.jpeg" alt="mammooty" />
-                                <p className='mustAttendPara'>Watch Mammooty in 90"s</p>
+                                    <img className='mustAttendImage' src="/mammootty.jpeg" alt="mammooty" />
+                                    <p className='mustAttendPara'>Watch Mammooty in 90"s</p>
                                 </a>
 
                             </div>
@@ -177,8 +183,8 @@ const Home = () => {
                         <SwiperSlide>
                             <div className='mustAttendEvent'>
                                 <a href='https://www.youtube.com/watch?v=86gzL8Dd9Gg'>
-                                <img className='mustAttendImage' src="/tomandjerry.jpeg" alt="tomandjerry" />
-                                <p className='mustAttendPara'>Watch Tom and Jerry </p>
+                                    <img className='mustAttendImage' src="/tomandjerry.jpeg" alt="tomandjerry" />
+                                    <p className='mustAttendPara'>Watch Tom and Jerry </p>
                                 </a>
                             </div>
                         </SwiperSlide>
@@ -186,7 +192,7 @@ const Home = () => {
                 </div>
                 <div className='endtitleContainer'>
                     <h3 className='endTitle'>Enjoy <span className='endspanTitle'>Bookit.COM</span></h3>
-                    
+
                 </div>
             </div>
         </div>
