@@ -52,7 +52,7 @@ const Home = () => {
                     <h2 className='locationHeading'>Watch Your Favourite Movies</h2>
                 </div>
 
-                <div className='swiperContainer'>
+                <div className='swiperContainer'>  {/*first carousel*/}
 
                     <Swiper
                         spaceBetween={32}
@@ -65,7 +65,7 @@ const Home = () => {
                         }}
                         speed={1000}
                         loop={true}
-                        // modules={[Autoplay]}
+                        //modules={[Autoplay]}
                     >
                         <SwiperSlide>
                             <img className='swiperimage' src="/PeakyBlinders.jpeg"
@@ -87,7 +87,7 @@ const Home = () => {
                 <div className='recommedMovieHeadingContainer'>
                     <h2 className='locationHeading'>Must Attend Events</h2>
                 </div>
-                <div className='mustAttendContainer'>
+                <div className='mustAttendContainer'> {/*first carousel (better move to another file) autoplay issue with both carousel*/}
 
                     
 

@@ -82,7 +82,9 @@ const Booking = () => {
 
     const booknowClick = () => {
             
-            Navigate('/')
+           
+            alert("Bookeing SucessFul enjoy other movie")
+             Navigate('/')
 
         setSeatNumber(prev => [...prev, ...seatState])
         console.log([...seatState], "hello")
